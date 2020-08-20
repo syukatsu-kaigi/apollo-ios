@@ -8,7 +8,7 @@ SCRIPT_DIR="$(dirname "$0")"
 
 # Get the SHASUM of the tarball
 ZIP_FILE="${SCRIPT_DIR}/apollo.tar.gz"
-ZIP_FILE_DOWNLOAD_URL="https://41516-65563448-gh.circle-artifacts.com/0/oclif-pack/apollo-v2.22.1/apollo-v2.22.1-darwin-x64.tar.gz"
+ZIP_FILE_DOWNLOAD_URL="https://install.apollographql.workers.dev/legacy-cli/darwin/2.22.1"
 SHASUM_FILE="${SCRIPT_DIR}/apollo/.shasum"
 APOLLO_DIR="${SCRIPT_DIR}"/apollo
 IS_RETRY="false"
